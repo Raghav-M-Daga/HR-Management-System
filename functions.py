@@ -2,11 +2,7 @@ import tkinter
 from PIL import ImageTk, Image
 import mysql.connector
 
-mydb = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="Raghav2007",
-    database="hr_db")
+mydb = # database details
 
 my_cursor = mydb.cursor()
 
